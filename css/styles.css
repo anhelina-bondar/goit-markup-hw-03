@@ -66,6 +66,7 @@ address {
 
 .header-nav {
   display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -151,6 +152,7 @@ address {
 
 .hero-section {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .solution-title {
@@ -159,6 +161,8 @@ address {
   text-align: center;
   color: #ffffff;
   line-height: 1.07;
+  width: 496px;
+  margin: 0 auto 48px auto;
 }
 
 .btn-open-service {
@@ -169,6 +173,9 @@ address {
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
+  padding: 16px 32px;
+  margin: 0 auto;
+  display: block;
 }
 
 .btn-open-service:hover,
