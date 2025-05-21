@@ -185,6 +185,7 @@ address {
 }
 
 .features-list {
+  display: flex;
 }
 
 .features-list-item {
