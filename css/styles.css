@@ -5,15 +5,47 @@ body {
   background-color: #ffffff;
 }
 
+/* ======== RESET ======== */
+
 a {
   text-decoration: none;
 }
 
-ul {
+ul,
+ol {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-..section-title {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* ======== COMON  ======== */
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section-title {
   color: #2e2f42;
   font-size: 36px;
   line-height: 1.11;
@@ -25,9 +57,15 @@ ul {
 /* ======== HEADER ======== */
 
 .header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
 }
 
 .header-nav {
+  display: flex;
 }
 
 .logo {
@@ -45,17 +83,28 @@ ul {
   color: #2e2f42;
 }
 
+.logo-header {
+  padding: 24px 0;
+  margin-right: 76px;
+}
+
 .header-list {
+  display: flex;
+  gap: 40px;
+  align-items: center;
 }
 
 .header-nav-item {
 }
+
 .header-nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
+  display: block;
 }
 
 .header-nav-link:hover,
@@ -68,10 +117,13 @@ ul {
 } */
 
 .user-address {
-  font-style: normal;
+  margin-left: auto;
 }
 
 .user-address-list {
+  display: flex;
+  gap: 40px;
+  align-items: center;
 }
 
 .user-address-item {
@@ -84,6 +136,8 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding: 24px 0;
+  display: block;
 }
 
 .user-address-link:hover,
@@ -95,7 +149,7 @@ ul {
 
 /*-------- SECTION 1 --------- */
 
-.header-section {
+.hero-section {
   background-color: #2e2f42;
 }
 
