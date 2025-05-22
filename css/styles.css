@@ -28,14 +28,14 @@ p {
   margin: 0;
 }
 
+address {
+  font-style: normal;
+}
+
 img {
   display: block;
   max-width: 100%;
   height: auto;
-}
-
-address {
-  font-style: normal;
 }
 
 /* ======== COMON  ======== */
